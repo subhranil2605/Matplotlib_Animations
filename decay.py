@@ -9,7 +9,7 @@ import numpy as np
 def gen_data():
     for cnt in itertools.count():
         t = cnt / 10
-        yield t, np.cos(t)
+        yield t, np.sin(2*np.pi*t) * np.exp(-t/10.)
 
 
 fig, ax = plt.subplots()
