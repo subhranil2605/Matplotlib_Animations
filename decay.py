@@ -4,7 +4,7 @@ from matplotlib import animation
 
 import numpy as np
 
-
+# data generator 
 def gen_data():
     for cnt in itertools.count():
         t = cnt / 10
